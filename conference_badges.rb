@@ -6,9 +6,8 @@ def batch_badge_creator(attendees)
   badges = []
   attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   attendees.each do |attendees|
-    badges.push("Hello, my name is #{attendees}.")
+    return badges.push("Hello, my name is #{attendees}.")
   end
-  return badges
 end
 
 def assign_rooms(attendees)
